@@ -68,9 +68,9 @@ export const ContactSection = ({ contactInfo }) => {
       <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4">
-          <Badge variant="secondary" className="px-4 py-2 text-sm bg-primary/10 text-primary border-primary/20">
+          {/* <Badge variant="secondary" className="px-4 py-2 text-sm bg-primary/10 text-primary border-primary/20">
             Contact
-          </Badge>
+          </Badge> */}
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
             Let's Work Together
           </h2>

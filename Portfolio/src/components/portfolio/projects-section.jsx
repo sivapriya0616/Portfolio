@@ -10,11 +10,11 @@ export const ProjectsSection = ({ projects }) => {
       <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4">
-          <Badge variant="secondary" className="px-4 py-2 text-sm bg-primary/10 text-primary border-primary/20">
+          {/* <Badge variant="secondary" className="px-4 py-2 text-sm bg-primary/10 text-primary border-primary/20">
             Portfolio
-          </Badge>
+          </Badge> */}
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            Featured Projects
+             Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             A showcase of my recent work and personal projects that demonstrate my skills and passion for development.

@@ -23,7 +23,7 @@ const Index = () => {
     title: "Full Stack Developer",
     description: "I'm a passionate developer who loves creating beautiful, functional, and user-centered digital experiences. With expertise in modern web technologies, I bring ideas to life through clean code and thoughtful design.",
     skills: ["Java","C++","Python", "MySQL","React", "JavaScript", "Node.js", "MongoDB", "Git"],
-    resumeUrl: "#", // Add your resume URL here
+    resumeUrl: "/Sivapriya_S_Resume.pdf", // Place your resume file at public/resume.pdf
     
     projects: [
       {
@@ -54,6 +54,8 @@ const Index = () => {
         // liveUrl: "#",
         githubUrl: "https://github.com/SubscriptionBasedOnlineLearningPlatfrom/Online-Course-Platform.git",
         imageUrl:project3Image,
+        featured: true
+
       },
       {
         id: "4",
@@ -63,6 +65,8 @@ const Index = () => {
         // liveUrl: "#",
         githubUrl: "https://github.com/sivapriya0616/Full-Stack.git",
         imageUrl: project4Image,
+        featured: true
+
       },
       {
         id: "5",
@@ -72,17 +76,18 @@ const Index = () => {
         // liveUrl: "#",
         githubUrl: "https://github.com/sivapriya0616/Qrcode-generator.git",
         imageUrl: project5Image,
+        featured: true
+
       }
     ],
     
     contactInfo: {
-      email: "john.doe@example.com",
-      phone: "+1 (555) 123-4567", 
-      location: "San Francisco, CA",
-      linkedin: "https://linkedin.com/in/johndoe",
-      github: "https://github.com/johndoe",
-      twitter: "https://twitter.com/johndoe",
-      website: "https://johndoe.dev"
+      email: "sivapriya.22@cse.mrt.ac.lk",
+      phone: "+94 743148389", 
+      location: "Neervely North Neervely,Jaffna,Sri Lanka.",
+      linkedin: "https://www.linkedin.com/in/sivapriya-sivapragasam-6319192b0/",
+      github: "https://github.com/sivapriya0616",
+      
     }
   }
 

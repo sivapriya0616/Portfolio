@@ -158,8 +158,8 @@ export const HeroSection = ({
               asChild
               className="px-8 py-6 text-lg border-primary/30 hover:bg-primary/10 hover:border-primary/50 hover:scale-105 transition-all"
             >
-              <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
-                <Download className="w-5 h-5" />
+              <a href={resumeUrl} target="_blank" rel="noopener noreferrer" download="Sivapriya_S_Resume.pdf">
+              <Download className="w-5 h-5" />
                 Download Resume
               </a>
             </Button>
