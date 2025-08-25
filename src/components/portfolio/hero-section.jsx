@@ -100,11 +100,15 @@ export const HeroSection = ({
   return (
     <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
       
-      {/* 3D Spline Background */}
-      <Spline
-        scene="https://prod.spline.design/c6pCr-vMTkYg6aYQ/scene.splinecode" 
-        className="absolute inset-0 w-full h-full"
-      />
+      {/* 3D Spline Background */ }
+      <div className="absolute inset-0 right-0 flex justify-end pointer-events-none z-0">
+        <div className="w-full h-full flex items-start justify-end mt-16">
+          <Spline 
+            scene="https://prod.spline.design/c6pCr-vMTkYg6aYQ/scene.splinecode" 
+            style={{ width: "100%", height: "100%" }} 
+          />
+        </div>
+      </div> 
 
       {/* Overlay gradient for readability */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-accent/10 to-primary/5" />
